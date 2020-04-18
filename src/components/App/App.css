@@ -35,3 +35,9 @@ h1{
     font-size: 60px;
     color: #111111;
 }
+.video{
+    margin-top: 1pxx;
+    position: absolute;
+    background-color: transparent;
+
+}

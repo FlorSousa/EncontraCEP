@@ -12,6 +12,8 @@ export default function Form({ Clicker,LiveChange,CEP}){
                 onChange={LiveChange}
                 type='text'
                 value={CEP}
+                placeholder='ex:00000-000'
+                maxLength='9'
             />
             <button type='submit' onClick={Clicker}>Encontrar</button>
         </div>
