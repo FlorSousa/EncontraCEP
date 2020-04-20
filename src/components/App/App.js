@@ -111,9 +111,8 @@ export default class Main extends Component {
                 fluid={false}
                 padding={0}
                 autoPlay={true}
-                width={1353}
+                width={1400}
                 playing={true}
-                preload={true}
                 loop={true}
                 height={761.406779661}
             />
