@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Form from '../Form/Form.js'
 import './App.css'
 import Truck from './truck.png'
-import VideoBack from '../../Cep.mp4'
 import ReactPlayer from 'react-player'
 export default class Main extends Component {
     state = {
@@ -107,7 +106,7 @@ export default class Main extends Component {
 
             <ReactPlayer 
                 className='video'
-                url={VideoBack}
+                url='https://www.youtube.com/watch?v=Rq5SEhs9lws'
                 fluid={false}
                 padding={0}
                 autoPlay={true}
